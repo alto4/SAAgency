@@ -1,0 +1,10 @@
+Unsuccessful sign-in event at  due to an invalid password entry for the user account with the email address scottalton@gmail.com.
+Unsuccessful sign-in event at 20201002. User does not exist.
+Sign-out event at .. User  sign-out.
+Successful sign-in event at  . User scottalton@gmail.com sign-in.
+Successful sign-in event at  . User scottalton@gmail.com sign-in.
+Successful sign-in event at  . User scottalton@gmail.com sign-in.
+Successful sign-in event at  . User scottalton@gmail.com sign-in.
+Successful sign-in event at  . User scottalton@gmail.com sign-in.
+Successful sign-in event at  . User scottalton@gmail.com sign-in.
+Unsuccessful sign-in event at  . User does not exist.

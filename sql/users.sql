@@ -31,7 +31,7 @@ CREATE TABLE users
   Type VARCHAR(2)
 );
 
-
+GRANT ALL ON users TO faculty;
 
 /* Sample of user creation that will use sequence for unique ID*/
 INSERT INTO Users

@@ -10,10 +10,10 @@
     
     // If a session already exists, it will be destroyed and captured in the logs
     if($_SESSION) {
-       $email = $_SESSION['email'];
 
        session_destroy();  
-        
+      // setMessage("<h1>Successfully logged out.</h1>");       
+       
        // Log sign out event
        updateLogs($email, "sign-out");    
     }  
@@ -46,40 +46,34 @@
             $output .= "You must enter your password to login</br>";
         };
 
-        // If both a login and a password have been set by the user, proceed to compare them to the database entries of user info
-        if($output == "")
-        {
-            // Query the database
-            $sql = "SELECT * FROM users WHERE EmailAddress ='$email'";
-            $result = pg_query($conn, $sql);
-            $records = pg_num_rows($result);
-
-            // Match entered id against ids that exist in the database
-            if(@pg_fetch_result($result, 0, "id") )
-            {
-                // Check entered password against the password associated with the entered id that exists in the database
-                if( $password == pg_fetch_result($result, 0, "password"))
+        
+              // Check entered password against the password associated with the entered id that exists in the database
+                if(user_select($email))
                 {
-                    // Start a new session upon authentication
-                    session_start();             
+                    $userInfo = user_select($email);
 
-                     // Log valid login 
-                     updateLogs($email, "successful sign-in");   
+                    if(user_authenticate($email, $password))
+                    {
+                        // Start a new session upon authentication
+                        //session_start();             
 
-                     // If email and password are authenticated, output a welcome message to the user with a brief summary of their account activity
-                    $output .= "Welcome back! Your account is associated with the email address " . pg_fetch_result($result, 0, "emailaddress") . " and you were last logged in on " . pg_fetch_result($result, 0, "lastaccess") . ".";
-               
-                    $_SESSION['email'] = $email;
-                    $_SESSION['password'] = $password;
+                        // Log valid login 
+                        updateLogs($email, "successful sign-in");   
 
-                    // Upon successful login, redirect user back to the dashboard page                   
-                    update_last_login($email);
-                    user_authenticate($email, $password);
+                        // If email and password are authenticated, output a welcome message to the user with a brief summary of their account activity
+                        $output .= "Welcome back! Your account is associated with the email address " . pg_fetch_result($result, 0, "emailaddress") . " and you were last logged in on " . pg_fetch_result($result, 0, "lastaccess") . ".";
+                
+                        $_SESSION['email'] = htmlentities($email);
+                        $_SESSION['password'] = htmlentities($password);
 
-                    setMessage($output);
-                    
-                    header('Location: dashboard.php');
-            
+                        // Upon successful login, redirect user back to the dashboard page                   
+                        update_last_login($email);
+                        user_authenticate($email, $password);
+
+                        setMessage($output);
+                        
+                        header('Location: dashboard.php');
+                    }    
                 }
                 // If password does not match the corresponding id, output an error message
                 else                 
@@ -90,18 +84,18 @@
                     updateLogs($email, "unsuccessful login due to bad password");   
                 }
             
-            }
-            // If the user id is not found in the database records, display an error message and clear form fields
-            else
-            {
-                $output .= "The email address <br/>" . $email . "<br/> has not been registered.";
-                $email = "";
-                $password = "";
+            
+            //If the user id is not found in the database records, display an error message and clear form fields
+            // else
+            // {
+            //     $output .= "The email address <br/>" . $email . "<br/> has not been registered.";
+            //     $email = "";
+            //     $password = "";
 
-                // Log invalid attempt 
-                updateLogs("unknown", "attemped sign-in without a valid email");    
-            }
-        }
+            //     // Log invalid attempt 
+            //     updateLogs("unknown", "attemped sign-in without a valid email");    
+            // }
+        
     }
 
     // Display the results of the above authentication and valdiation tests

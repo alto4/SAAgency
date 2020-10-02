@@ -1,0 +1,113 @@
+sign-out event at 13:15:01 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 13:15:03 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 13:15:08 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 13:17:20 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 13:17:26 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 13:17:27 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 13:17:30 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 13:17:47 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 13:17:51 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 13:22:49 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 13:22:52 20201002. User scottalton@gmail.com sign-out.
+unsuccessful login due to bad password event at 13:22:56 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 13:28:22 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+successful sign-in event at 13:29:30 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 13:29:32 20201002. User scottalton@gmail.com sign-out.
+unsuccessful login due to bad password event at 13:29:35 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 13:33:21 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+attemped sign-in without a valid email event at 13:40:14 20201002. User unknown attemped sign-in without a valid email.
+successful sign-in event at 14:03:21 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:03:23 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:03:24 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:03:30 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:03:35 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:03:43 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:03:49 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:04:03 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:04:05 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:04:50 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:12:31 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:12:35 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:16:07 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:16:10 20201002. User scottalton@gmail.com sign-out.
+unsuccessful login due to bad password event at 14:17:52 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 14:18:07 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 14:18:12 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 14:18:22 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 14:18:23 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 14:18:29 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 14:19:07 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 14:19:08 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+successful sign-in event at 14:22:45 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:22:47 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:23:25 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:23:32 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:23:33 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:23:35 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:23:35 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:23:39 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:23:40 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:24:04 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:24:04 20201002. User scottalton@gmail.com successful sign-in.
+successful sign-in event at 14:24:06 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:24:09 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:24:10 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:24:13 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:24:14 20201002. User scottalton@gmail.com successful sign-in.
+successful sign-in event at 14:24:15 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:24:31 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:24:33 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:24:56 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:24:58 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:25:03 20201002. User scottalton@gmail.com sign-out.
+unsuccessful login due to bad password event at 14:25:03 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+successful sign-in event at 14:26:34 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:26:36 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:26:36 20201002. User scottalton@gmail.com successful sign-in.
+successful sign-in event at 14:26:45 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:26:47 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:26:48 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:29:10 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:29:11 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 14:29:12 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 14:29:12 20201002. User scottalton@gmail.com successful sign-in.
+successful sign-in event at 16:34:41 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 16:34:43 20201002. User scottalton@gmail.com sign-out.
+unsuccessful login due to bad password event at 16:34:47 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+successful sign-in event at 16:35:01 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 16:35:05 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 16:40:05 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 16:41:02 20201002. User scottalton@gmail.com sign-out.
+unsuccessful login due to bad password event at 16:41:03 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 16:41:08 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 16:42:00 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 16:42:03 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 16:42:05 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 16:42:09 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 16:42:15 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+successful sign-in event at 16:42:39 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 16:42:41 20201002. User scottalton@gmail.com sign-out.
+unsuccessful login due to bad password event at 16:42:45 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 16:43:06 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 16:43:09 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+successful sign-in event at 16:43:20 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 16:43:23 20201002. User scottalton@gmail.com sign-out.
+unsuccessful login due to bad password event at 16:44:28 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 16:44:31 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+unsuccessful login due to bad password event at 16:44:40 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+attemped sign-in without a valid email event at 16:44:46 20201002. User unknown attemped sign-in without a valid email.
+successful sign-in event at 16:44:47 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 16:47:53 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 16:47:54 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 16:47:56 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 16:48:13 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 17:11:33 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 17:11:35 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 17:11:39 20201002. User scottalton@gmail.com sign-out.
+unsuccessful login due to bad password event at 17:11:43 20201002. User scottalton@gmail.com unsuccessful login due to bad password.
+successful sign-in event at 17:12:06 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 17:12:07 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 17:19:39 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 17:19:48 20201002. User scottalton@gmail.com sign-out.
+successful sign-in event at 17:19:49 20201002. User scottalton@gmail.com successful sign-in.
+sign-out event at 17:19:59 20201002. User scottalton@gmail.com sign-out.

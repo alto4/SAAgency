@@ -13,10 +13,9 @@
   $conn = db_connect();
 
   $user_select = pg_prepare($conn, "user_select" ,"SELECT * FROM users WHERE EmailAddress = $1");
-  $user_update_login_time = pg_prepare($conn, "user_update_login_time", "");
+  $user_update_login_time_stmt = pg_prepare($conn, "user_update_login_time_stmt", "UPDATE users SET LastAccess = $1 WHERE EmailAddress = $2");
 
   $result = pg_execute($conn, "user_select", array("scottalton@gmail.com"));
-  //$result = pg_execute($conn, "user_select_all", array());
 
   // Loop through array of results if present and dump all user account information
   if(pg_num_rows($result) == 1) {

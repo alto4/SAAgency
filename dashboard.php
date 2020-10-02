@@ -6,13 +6,15 @@
  
     include "./includes/header.php";    
     
-    //header("Location:./sign-in.php");
-    //user_authenticate($_SESSION['id']);
-    //redirect("sign-in.php");
+    // Redirect to sign-in page if a session has not been authorized
+    if(!$_SESSION) {
+        redirect("sign-in.php");
+    } 
+    
 ?>    
 <h1 class="h2">Dashboard</h1>
 <div class="container d-flex justify-content-center w-100">
-    <h3 class="text-success px-5 py-2"><?php echo $message; ?></h3>
+    <h5 class="text-success w-50-lg px-5 py-2"><?php echo $message; ?></h5>
 </div>
 
 <div class="btn-toolbar mb-2 mb-md-0">

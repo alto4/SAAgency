@@ -1,4 +1,12 @@
 <?php 
+  
+   /*
+    Name: Scott Alton
+    Date: October 2, 2020
+    File: constants.php
+    Description: This file contains constant declarations for various user types, as well as database details 
+  */
+  
   // User Types
   define("ADMIN", "s");
   define("AGENT", "a");
