@@ -11,9 +11,8 @@
     // If a session already exists, it will be destroyed and captured in the logs
     if($_SESSION) {
 
-       session_destroy();  
-      // setMessage("<h1>Successfully logged out.</h1>");       
-       
+       session_destroy(); 
+
        // Log sign out event
        updateLogs($email, "sign-out");    
     }  
@@ -25,15 +24,16 @@
         $password = "";
         $output = "";
     } 
-    else
+    else if($_SERVER["REQUEST_METHOD"]=="POST")
     {
         $email = trim($_POST["email"]);
-        $password = $_POST["password"];
+        $password = trim($_POST["password"]);
         $output = "";
         
         // Save the function that connects to the database as a variable
         $conn = db_connect();
-        
+        $user = user_select($email);
+
         // Verify that user id was entered, and if not, display an error message
         if(!isset($email) || $email == "")
         {
@@ -48,11 +48,11 @@
 
         
               // Check entered password against the password associated with the entered id that exists in the database
-                if(user_select($email))
+                if(user_select($email) == true)
                 {
                     $userInfo = user_select($email);
 
-                    if(user_authenticate($email, $password))
+                    if(user_authenticate($userInfo['EmailAddress'], $password) == true)
                     {
                         // Start a new session upon authentication
                         //session_start();             
@@ -67,8 +67,6 @@
                         $_SESSION['password'] = htmlentities($password);
 
                         // Upon successful login, redirect user back to the dashboard page                   
-                        update_last_login($email);
-                        user_authenticate($email, $password);
 
                         setMessage($output);
                         

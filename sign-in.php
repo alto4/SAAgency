@@ -19,16 +19,16 @@
     }  
  
     // Check for user input in required fields and process login transaction
-    if($_SERVER["REQUEST_METHOD"]=="GET")
+    if($_SERVER["REQUEST_METHOD"] == "GET")
     {
         $email = "";
         $password = "";
         $output = "";
     } 
-    else
+    else if ($_SERVER["REQUEST_METHOD"] == "POST")
     {
         $email = trim($_POST["email"]);
-        $password = $_POST["password"];
+        $password = trim($_POST["password"]);
         $output = "";
         
         // Save the function that connects to the database as a variable
